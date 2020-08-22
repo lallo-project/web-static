@@ -65,11 +65,11 @@
 
 .navbar {
   z-index: 99999999999;
-  max-height: 80px;
+  font-weight: bold;
+  max-height: 58px;
   position: fixed;
   left: 0;
   right: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0));
 }
 
 .navbar .navbar-brand img {
