@@ -1,0 +1,87 @@
+:root {
+  --tosca: #009688;
+  --tosca-light: #1ca89a;
+}
+
+/* button */
+
+.btn-rounded {
+  border-radius: 100vh;
+}
+
+.btn-tosca {
+  background-color: var(--tosca);
+  padding: 5px 30px;
+  color: white;
+}
+
+.btn-tosca:hover {
+  background-color: var(--tosca-light);
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.text-tosca {
+  color: var(--tosca);
+}
+
+
+.bg-tosca {
+  background-color: var(--tosca);
+}
+
+.hero {
+  min-height: 100vh;
+  margin: 0px;
+  align-items: center;
+  background-image: url('../assets/bg/hero.jpg');
+}
+
+.hero .hero-title {
+  font-weight: bold;
+  margin-top: 20vh;
+  max-width: 30vw;
+}
+
+.navbar {
+  max-height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0));
+}
+
+.navbar .navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar .navbar-brand .navbar-brand-title {
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-left: 16px;
+  color: white;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+/* rental search */
+
+.rental {
+  max-width: 400px;
+  padding: 30px;
+  margin-top: -30vh;
+  min-height: 60vh;
+  border-radius: 20px;
+}
