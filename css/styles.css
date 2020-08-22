@@ -48,6 +48,10 @@
   background-size: cover;
 }
 
+.hero.hero-sm {
+  min-height: 40vh;
+}
+
 .hero .hero-title {
   font-weight: bold;
   margin-top: 20vh;
@@ -115,6 +119,7 @@
 
 .card-boat .card-footer {
   background-color: #fff;
+  padding-bottom: 20px;
 }
 
 .card-boat .card-amount {
@@ -162,4 +167,13 @@
 
 .galery-image:hover {
   transform: scale(1.1);
+}
+
+
+/* searchbox */
+.searchbox-container {
+  border-radius: 20px;
+  min-height: 40vh;
+  margin-top: -20vh;
+  background-color: var(--tosca);
 }
