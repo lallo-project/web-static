@@ -146,3 +146,20 @@
 .footer .footer-menu-item:hover {
   text-decoration: underline;
 }
+
+/* galery */
+.galery-item {
+  overflow: hidden;
+}
+
+.galery-image {
+  width: 120%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  transition: ease-in-out 5s;
+}
+
+.galery-image:hover {
+  transform: scale(1.1);
+}
