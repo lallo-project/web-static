@@ -63,6 +63,7 @@
 }
 
 .navbar {
+  z-index: 99999999999;
   max-height: 80px;
   position: fixed;
   left: 0;
