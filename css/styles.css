@@ -52,6 +52,16 @@
   max-width: 30vw;
 }
 
+.section-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
 .navbar {
   max-height: 80px;
   position: fixed;
@@ -86,6 +96,39 @@
   border-radius: 20px;
 }
 
+/* card */
+.card-boat {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-boat .card-subtitle {
+  font-weight: bold;
+  opacity: .6;
+  font-size: .8em;
+}
+
+.card-boat .card-text {
+  font-size: .8em;
+}
+
+.card-boat .card-footer {
+  background-color: #fff;
+}
+
+.card-boat .card-amount {
+  color: var(--tosca);
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.card-boat .card-desc {
+  font-weight: bold;
+  font-size: 1.2em;
+  opacity: .5;
+}
+
+/* footer */
 .footer {
   background-color: #1D262D;
 }
