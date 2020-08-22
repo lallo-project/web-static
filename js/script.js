@@ -7,7 +7,7 @@ $(document).ready(function () {
       scroll_start = $(document).scrollTop();
       if (scroll_start > offset.top) {
         $(".navbar").css('background-color', 'var(--tosca)');
-        $(".navbar").css('box-shadow', '3px 3px 5px #aaa');
+        $(".navbar").css('box-shadow', '3px 3px 5px #11111145');
         $(".navbar .btn-tosca").css('background-color', 'white');
         $(".navbar .btn-tosca").css('color', 'var(--tosca)');
       } else {
