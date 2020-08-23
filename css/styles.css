@@ -188,3 +188,20 @@
     font-size: 1.2em;
   }
 }
+
+/* pagination */
+.pagination {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  color: var(--tosca);
+}
+
+.pagination * {
+  border: none;
+  color: var(--tosca);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--tosca);
+}
