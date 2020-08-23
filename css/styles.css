@@ -177,3 +177,14 @@
   margin-top: -20vh;
   background-color: var(--tosca);
 }
+
+/* thanks */
+.thanks {
+  font-size: 3em;
+}
+
+@media (max-width: 768px) {
+  .thanks {
+    font-size: 1.2em;
+  }
+}
