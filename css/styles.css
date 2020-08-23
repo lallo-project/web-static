@@ -34,16 +34,17 @@
   color: var(--tosca);
 }
 
-
 .bg-tosca {
   background-color: var(--tosca);
 }
+
+/* hero section */
 
 .hero {
   min-height: 100vh;
   margin: 0px;
   align-items: center;
-  background-image: url('../assets/bg/hero.jpg');
+  background-image: url("../assets/bg/hero.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -57,6 +58,8 @@
   margin-top: 20vh;
 }
 
+/* section */
+
 .section-title {
   font-size: 2em;
   font-weight: bold;
@@ -67,12 +70,18 @@
   font-weight: 500;
 }
 
+/* navbar */
+
 .navbar {
   z-index: 99999999999;
   font-weight: bold;
   position: fixed;
   left: 0;
   right: 0;
+}
+.navbar.navbar-tosca {
+  background-color: var(--tosca);
+  box-shadow: 3px 3px 5px #11111145;
 }
 
 .navbar .navbar-brand img {
@@ -89,6 +98,10 @@
 
 .nav-item {
   margin-left: 30px;
+}
+.navbar.navbar-tosca .btn-tosca {
+  background-color: #fff;
+  color: var(--tosca);
 }
 
 /* rental search */
@@ -109,12 +122,12 @@
 
 .card-boat .card-subtitle {
   font-weight: bold;
-  opacity: .6;
-  font-size: .8em;
+  opacity: 0.6;
+  font-size: 0.8em;
 }
 
 .card-boat .card-text {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .card-boat .card-footer {
@@ -131,12 +144,12 @@
 .card-boat .card-desc {
   font-weight: bold;
   font-size: 1.2em;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* footer */
 .footer {
-  background-color: #1D262D;
+  background-color: #1d262d;
 }
 
 .footer .footer-menu-item {
@@ -168,7 +181,6 @@
 .galery-image:hover {
   transform: scale(1.1);
 }
-
 
 /* searchbox */
 .searchbox-container {
