@@ -121,6 +121,11 @@
 }
 
 /* card */
+.card-badges {
+  position: absolute;
+  top: 15px;
+}
+
 .card-boat {
   border-radius: 20px;
   overflow: hidden;
