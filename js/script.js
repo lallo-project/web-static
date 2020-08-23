@@ -18,33 +18,53 @@ $(document).ready(function () {
   }
 
   (function () {
-    $('.swipe-box').slick({
-      dots: false,
-      infinite: true,
+    $('.swipe-box')
+      .slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: "40px",
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      })
+  })();
+
+  (function () {
+    $('.slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+
+    $('.slider-nav').slick({
       slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
       centerMode: true,
-      centerPadding: "40px",
-      autoplay: true,
-      autoplaySpeed: 2000,
-      responsive: [{
-          breakpoint: 768,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
-          }
-        }
-      ]
-    })
+      focusOnSelect: true
+    });
   })()
 });
