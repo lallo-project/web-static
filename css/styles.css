@@ -304,6 +304,10 @@
   top: 25px
 }
 
+.detail-image-list .prev {
+  left: 0;
+}
+
 .detail-image-list .next {
   right: 0;
 }
