@@ -3,6 +3,10 @@
   --tosca-light: #1ca89a;
 }
 
+.rounded-20 {
+  border-radius: 20px;
+}
+
 /* button */
 
 .btn-rounded {
