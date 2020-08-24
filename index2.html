@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+  <title>Hello, world!</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-dyn">
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        <img class="img-fluid" src="assets/logo.png" alt="">
+        <span class="navbar-brand-title">Lallo</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-uppercase " id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="our-boats.html">Our Boats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galery.html">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-rounded text-capitalize btn-tosca" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <!-- hero -->
+  <section class="jumbotron hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2 class="hero-title">Explore Your Own unique local expresience</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Search Rental -->
+  <section class="mb-5">
+    <div class="container">
+      <div class="bg-tosca rental">
+        <h5 class="mb-4">
+          Search for a Boat Rental
+        </h5>
+        <form>
+          <div class="form-group">
+            <label class="font-weight-bold text-white">Pick-up Location</label>
+            <select class="form-control">
+              <option>Lombok</option>
+              <option>Bali</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="font-weight-bold text-white">Pick-up Date</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="form-group">
+            <label class="font-weight-bold text-white">Guest</label>
+            <select class="form-control">
+              <option>1 Person</option>
+              <option>2 Person</option>
+            </select>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-rounded btn-white text-tosca font-weight-bold" type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- boats section -->
+  <section class="mb-5 pb-5">
+    <div class="container text-center mb-5">
+      <div class="section-subtitle">what we offer</div>
+      <div class="section-title text-tosca">Choose Your Boat</div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <div class="card-badges pl-3">
+              <div class="badge badge-primary badge-pill">availible</div>
+            </div>
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <a href="details.html" class="btn btn-tosca btn-rounded">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <a href="details.html" class="btn btn-tosca btn-rounded">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <a href="details.html" class="btn btn-tosca btn-rounded">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+      </div>
+    </div>
+    <div class="container text-center">
+      <a href="#" class="btn btn-rounded btn-tosca text-capitalize">view more</a>
+    </div>
+  </section>
+
+
+  <!-- Favorite section -->
+  <section class="mb-5 pb-5 pt-5 bg-tosca">
+    <div class="container text-center mb-5 mt-5">
+      <div class="section-title text-white">Favorite Boat</div>
+    </div>
+
+    <div class="container">
+      <div class="row swipe-box">
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <button class="btn btn-tosca btn-rounded">Detail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <button class="btn btn-tosca btn-rounded">Detail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <button class="btn btn-tosca btn-rounded">Detail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <div class="card-subtitle">Gili Terawangan</div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <div class="card-text">Start from</div>
+                  <div class="card-amount">Rp. 200.000</div>
+                  <div class="card-text">One Person</div>
+                </div>
+                <div class="right text-center">
+                  <div class="card-desc">One-Way</div>
+                  <button class="btn btn-tosca btn-rounded">Detail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- galery section -->
+  <section class="mb-5 pb-5 pt-5">
+    <div class="container text-center mb-5 mt-5">
+      <div class="section-title text-capitalize text-tosca">Galery</div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 p-1">
+          <div class="galery-item rounded-lg">
+            <div class="galery-image " style="background-image: url(assets/bg/hero.jpg);"></div>
+          </div>
+        </div>
+        <div class="col-md-3 p-1">
+          <div class="galery-item rounded-lg">
+            <div class="galery-image " style="background-image: url(assets/bg/hero.jpg);"></div>
+          </div>
+        </div>
+        <div class="col-md-3 p-1">
+          <div class="galery-item rounded-lg">
+            <div class="galery-image " style="background-image: url(assets/bg/hero.jpg);"></div>
+          </div>
+        </div>
+        <div class="col-md-3 p-1">
+          <div class="galery-item rounded-lg">
+            <div class="galery-image " style="background-image: url(assets/bg/hero.jpg);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class=" pb-5 pt-5 bg-tosca">
+    <div class="container text-center mb-5 mt-5">
+      <div class="section-title text-white">Latest Blog</div>
+    </div>
+
+    <div class="container pb-5">
+      <div class="row">
+        <!-- card -->
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+              <a href="#" class="card-link text-tosca font-weight-bold">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+              <a href="#" class="card-link text-tosca font-weight-bold">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="card card-boat">
+            <img src="assets/bg/hero.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">
+                Garuda Boat
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam eligendi
+                neque quibusdam ea provident repudiandae possimus eaque asperiores natus.</p>
+              <a href="#" class="card-link text-tosca font-weight-bold">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- section boat -->
+  <section class="footer">
+    <div class="container">
+      <div class="row"> p-3
+        <div class="col-md-3 p-5">
+          <img src="assets/logo.png" alt="" class="img-fluid p-3">
+          <div class="text-center text-white font-weight-bold">
+            Explore Your Own unique local expresience
+          </div>
+        </div>
+        <div class="col-md-3 ml-auto p-5 text-white text-capitalize">
+          <h4>Our Menu</h4>
+          <a href="#" class="footer-menu-item">Home</a>
+          <a href="#" class="footer-menu-item">our boats</a>
+          <a href="#" class="footer-menu-item">blog</a>
+          <a href="#" class="footer-menu-item">Galery</a>
+        </div>
+        <div class="col-md-4 p-5 text-white mb-3">
+          <h4>Contact Us</h4>
+          <div class="font-weight-bold mb-2">
+            Jln. Gajah Mada, Komplek Ruko BKA II No. 3 Lt.2,
+            Mataram, NTB, Indonesia
+          </div>
+          <div class="font-weight-bold mb-2">
+            +62 813-2864-6434/ +62 819-0766-4126
+          </div>
+          <div class="font-weight-bold mb-2">
+            admin@lallo.co.id
+          </div>
+          <div class="font-weight-bold mb-2">
+            lallo.co.id
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer text-center p-2 text-white">
+    Copyright &copy; 2020 lallo.co.id
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
