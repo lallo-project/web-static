@@ -9,10 +9,6 @@ $(document).ready(function () {
         $(".navbar.navbar-dyn").addClass('navbar-tosca');
       } else {
         $(".navbar.navbar-dyn").removeClass('navbar-tosca');
-        // $(".navbar").css('box-shadow', 'none');
-        // $('.navbar').css('background-color', 'transparent');
-        // $(".navbar .btn-tosca").css('background-color', 'var(--tosca)');
-        // $(".navbar .btn-tosca").css('color', 'white');
       }
     });
   }
@@ -23,8 +19,6 @@ $(document).ready(function () {
         dots: false,
         infinite: true,
         slidesToShow: 3,
-        centerMode: true,
-        centerPadding: "40px",
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [{
@@ -59,6 +53,7 @@ $(document).ready(function () {
     });
 
     $('.slider-nav').slick({
+      variableWidth: true,
       slidesToShow: 3,
       slidesToScroll: 1,
       asNavFor: '.slider-for',

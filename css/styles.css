@@ -289,6 +289,9 @@
 }
 
 /* detail images */
+.detail-image-list {
+  margin-top: 20px;
+}
 
 .detail-image-item {
   padding: 10px;
@@ -296,6 +299,10 @@
 
 .detail-image-item img {
   height: 80px;
+}
+
+.slider-nav .slick-current {
+  border: solid 2px var(--tosca);
 }
 
 .slider-nav .slick-prev:before,
